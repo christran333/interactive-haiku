@@ -9,7 +9,7 @@ body {
     color: whitesmoke;
     font-size: 7rem;
     overflow: hidden;
-    background: black url(giphy.gif") no-repeat center/cover;
+    background: black url("giphy.gif") no-repeat center/cover;
     font-family: Georgia, 'Times New Roman', serif;
     height: 100%;
     display: flex;
@@ -28,7 +28,7 @@ body {
     transition-property: transform;
     transition-duration: 3s;
 }
-}
+
 
 span {
     display: inline-block;
