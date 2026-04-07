@@ -6,7 +6,7 @@ html {
 body {
     margin: 1rem;
     background-color: black;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-size: 5rem;
     overflow: hidden;
     background: black url("giphy.gif") no-repeat center/cover;
@@ -22,7 +22,7 @@ body {
 
 .last {
     padding-bottom: 2rem;
-    border-bottom: 2px solid rgb(200, 60, 60);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 div {
