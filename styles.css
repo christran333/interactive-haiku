@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     background-color: black;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-size: 7rem;
     overflow: hidden;
     background: black url("giphy.gif") no-repeat center/cover;
