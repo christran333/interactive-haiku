@@ -4,17 +4,21 @@ html {
 }
 
 body {
-    margin: 1rem;
+    margin: 0;
     background-color: black;
-    color: rgb(0, 0, 0);
-    font-size: 5rem;
+    color: whitesmoke;
+    font-size: 7rem;
     overflow: hidden;
-    background: black url("giphy.gif") no-repeat center/cover;
+    background: black url("vectorized-text.png") no-repeat center/cover;
     font-family: Georgia, 'Times New Roman', serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-container {
-    margin: 3% 4rem 0 4rem;
+    margin: 0 4rem;
 }
 
 .line {
@@ -28,13 +32,6 @@ span {
     transition-property: transform;
     transition-duration: 3s;
 }
-}
-
-.last {
-    padding-bottom: 2rem;
-    border-bottom: 2px solid rgb(0, 0, 0);
-}
-
 div {
     transition-property: transform;
     transition-duration: 3s;

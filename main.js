@@ -6,9 +6,9 @@ let divs = document.querySelectorAll(".grid-container span");
 
 function randomize() {
     divs.forEach(function (div) {
-        let scale = randomNumber(5, 12) / 10;
-        let translateX = randomNumber(-50, 50);
-        let translateY = randomNumber(-30, 30);
+        let scale = randomNumber(3, 15) / 10;
+        let translateX = randomNumber(-200, 200);
+        let translateY = randomNumber(-200, 200);
         let rotate = randomNumber(0, 360);
         div.style.transform =
             `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
