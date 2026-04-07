@@ -14,10 +14,20 @@ body {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
     margin: 3% 4rem 0 4rem;
+}
+
+.line {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgb(200, 60, 60);
+    margin-bottom: 2rem;
+}
+
+span {
+    display: inline-block;
+    transition-property: transform;
+    transition-duration: 3s;
+}
 }
 
 .last {

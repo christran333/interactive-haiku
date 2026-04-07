@@ -2,7 +2,7 @@ function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let divs = document.querySelectorAll(".grid-container div");
+let divs = document.querySelectorAll(".grid-container span");
 
 function randomize() {
     divs.forEach(function (div) {
